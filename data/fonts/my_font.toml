@@ -2,10 +2,10 @@
 name = "my font"
 
 # Optional Google font URL
-google_fonts = "family=Source+Serif+4:wght@300;700&display=swap"
+google_fonts = "family=Noto+Serif+SC:wght@300&family=Source+Serif+4:wght@300;700&display=swap"
 
 # Font families
 heading_font = "Georgia"
-body_font = "Source Serif 4"
+body_font = "Source Serif 4, Noto Serif SC"
 nav_font = "Georgia"
 mono_font = "Menlo"
