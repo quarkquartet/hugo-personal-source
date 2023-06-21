@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+
+.article-container {
+    max-width: 1000px;
+}
+
+.navbar {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'Kaiti SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.experience .card-text {
+    font-size: 0.9rem !important;
+}
+
+.experience .card-text p {
+    font-size: 0.9rem !important;
+}
+
+.exp-title {
+    font-size: 1.0rem !important;
+}
+
+.exp-company {
+    font-size: 1.0rem;
+}
+
+.exp-meta {
+    font-size: 0.9rem;
+}
+
+:root {
+    font-family: 'Source Serif 4', -apple-system, 'Nimbus Roman No9 L', 'Kaiti SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'Kaiti SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+}
+
+.powered-by {
+    font-family: 'Source Serif 4', -apple-system, 'Nimbus Roman No9 L', 'Kaiti SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+}
+
+.section-subheading {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'Kaiti SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+}
