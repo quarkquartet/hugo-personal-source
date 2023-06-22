@@ -21,10 +21,10 @@ zh:
         url: '#about'
         weight: 10
       - name: 研究方向
-        url: 'projects'
+        url: 'research/'
         weight: 20
       - name: 联系方式
-        url: 'contact'
+        url: 'contact/'
         weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
