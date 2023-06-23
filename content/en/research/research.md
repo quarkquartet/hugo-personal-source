@@ -51,15 +51,13 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
-I work on the frontier of theoretical particle physics and cosmology.
-I'm in particular interested in the origin of matter-antimatter asymmetry, with emphasizing on the models related with electroweak (-like) phase transition.
+My work lies at the intersection of theoretical particle physics and cosmology, with a special focous on the origin of matter-antimatter asymmetry.
+In particular, I pay attention to models associated with electroweak (-like) phase transitions.
 Models that can be compatible with solutions to other problems in particle physics will always catch my eyes.
 
+I also have a keen interest in exploring computational uncertainties, intriguing dynamics and phase structures. These aspects will be central to the research I paln to conduct in the near future.
 
-Computational uncertainties and interesting dynamics, phase structures are also super-interesting to me, and will be one of the most important works that I plan to do in recent future.
-
-
-I also work on some other particle cosmology topics such as dark matter, or some experimental/cosmological probes for interesting physics, including LHC physics, beam-dump experiments, and other cosmological signals.
+Beyond these topics, I also work on some other topics within particle cosmology such as dark matter, or some experimental/cosmological probes for interesting physics, including LHC physics, beam-dump experiments, and other cosmological signals.
 
 
 # Projects
