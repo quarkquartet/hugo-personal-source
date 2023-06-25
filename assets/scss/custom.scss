@@ -37,20 +37,17 @@
     font-size: 0.9rem;
 }
 
-/*
 @font-face {
     font-family: STKaiti;
     src: url("https://quarkquartet.github.io/uploads/STKaiti.ttf") format("truetype");
-    font-weight: 300;
-    font-display: swap;
 }
 
-*/
+/*
 @font-face {
     font-family: STKaiti;
     src: local('STKaiti'), url('fonts/STKaiti.ttf');
 }
-
+*/
 :root {
     font-family: 'Source Serif 4', -apple-system, 'Nimbus Roman No9 L', 'STKaiti', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
