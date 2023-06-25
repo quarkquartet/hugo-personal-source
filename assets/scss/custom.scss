@@ -5,10 +5,6 @@
 }
 
 
-.navbar {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
 .nav-link {
     font-size: 1.1rem;
 }
@@ -78,5 +74,13 @@ h6 {
 }
 
 .section-subheading {
+    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+}
+
+.navbar {
+    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+}
+
+.dropdown-item .dropdown-menu .dropdown-item-activate {
     font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
