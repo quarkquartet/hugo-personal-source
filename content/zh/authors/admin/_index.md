@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Isaac R. Wang (王若泉)
+title: 王若泉
 
 # Full name (for SEO)
 first_name: Isaac
