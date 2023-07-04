@@ -36,18 +36,37 @@
 
 
 @font-face {
-    font-family: 'STKaiti';
-    src: url('/fonts/STKaiti.eot');
+    font-family: 'Kaiti SC';
+    src: url('/fonts/Kaiti-SC-Bold.eot');
     /* IE9 Compat Modes */
-    src: url('/fonts/STKaiti.eot?#iefix') format('embedded-opentype'),
+    src: url('/fonts/Kaiti-SC-Bold.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/fonts/STKaiti.woff2') format('woff2'),
+        url('/fonts/Kaiti-SC-Bold.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('/fonts/STKaiti.woff') format('woff'),
+        url('/fonts/Kaiti-SC-Bold.woff') format('woff'),
         /* Modern Browsers */
-        url('/fonts/STKaiti.ttf') format('truetype'),
+        url('/fonts/Kaiti-SC-Bold.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('/fonts/STKaiti.svg#STKaiti') format('svg');
+        url('/fonts/Kaiti-SC-Bold.svg#Kaiti SC') format('svg');
+    /* Legacy iOS */
+    font-style: Bold;
+    font-weight: Bold;
+}
+
+
+@font-face {
+    font-family: 'Kaiti SC';
+    src: url('/fonts/Kaiti-SC-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('/fonts/Kaiti-SC-Regualr.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('/fonts/Kaiti-SC-Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('/fonts/Kaiti-SC-Regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('/fonts/Kaiti-SC-Regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('/fonts/Kaiti-SC-Regular.svg#Kaiti SC') format('svg');
     /* Legacy iOS */
     font-style: normal;
     font-weight: normal;
@@ -108,11 +127,11 @@
 }
 
 body {
-    font-family: 'Exchange', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 html {
-    font-family: 'Exchange', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 h1,
@@ -121,25 +140,25 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Georgia', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Georgia', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .navbar {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .section-subheading {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 /*
 
 :root {
-    font-family: 'Exchange', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 h1,
@@ -148,23 +167,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Georgia', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Georgia', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 
 .powered-by {
-    font-family: 'Exchange', 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .section-subheading {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .navbar {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 
 .dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: Georgia, 'STKaiti', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
 }
 */
