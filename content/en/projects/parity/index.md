@@ -11,7 +11,7 @@ date: '2023-07-05'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
-
+share: false
 image:
    caption: Photo by rawpixel on Unsplash
    focal_point: Smart
