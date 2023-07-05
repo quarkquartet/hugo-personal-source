@@ -3,7 +3,7 @@ widget: portfolio
 headless: true  # This file represents a page section.
 # ... Put Your Section Options Here (title etc.) ...
 
-title: My Research
+title: 我的研究内容
 subtitle: ''
 
 content:
