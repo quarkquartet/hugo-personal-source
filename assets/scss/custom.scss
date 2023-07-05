@@ -1,39 +1,7 @@
+/*
+Import fonts
+*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
-
-.article-container {
-    max-width: 1000px;
-}
-
-
-.nav-link {
-    font-size: 1.1rem;
-}
-
-.navbar-brand {
-    font-size: 1.3rem;
-}
-
-.experience .card-text {
-    font-size: 0.9rem !important;
-}
-
-.experience .card-text p {
-    font-size: 0.9rem !important;
-}
-
-.exp-title {
-    font-size: 1.0rem !important;
-}
-
-.exp-company {
-    font-size: 1.0rem;
-}
-
-.exp-meta {
-    font-size: 0.9rem;
-}
-
-
 
 @font-face {
     font-family: 'Kaiti SC';
@@ -126,40 +94,14 @@
     font-weight: light;
 }
 
-body {
-    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-html {
-    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Georgia', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-.navbar {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-.dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-.section-subheading {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
 /*
+Define basic fonts
+*/
 
-:root {
-    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+body {
+    font-family: 'Exchange', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
+
 
 h1,
 h2,
@@ -167,23 +109,50 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Georgia', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-
-.powered-by {
-    font-family: 'Exchange', 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-.section-subheading {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
-}
-
-.navbar {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
 .dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
-*/
+
+.section-subheading {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
+
+/*Article body*/
+
+.article-container {
+    max-width: 1000px;
+}
+
+/*Navigation bar*/
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.navbar {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
+
+/*Experience widget*/
+.experience .card-text {
+    font-size: 0.9rem !important;
+}
+
+
+.exp-title {
+    font-size: 1.0rem !important;
+}
+
+.exp-company {
+    font-size: 1.0rem;
+}
+
+.exp-meta {
+    font-size: 0.9rem;
+}
