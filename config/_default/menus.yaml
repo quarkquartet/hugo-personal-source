@@ -14,6 +14,10 @@ main:
     url: 'research/'
     weight: 30
 
+  - name: Blog
+    url: 'blogs'
+    weight: 40
+
   - name: Contact
     url: 'contact/'
     weight: 60

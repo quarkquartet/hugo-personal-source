@@ -1,0 +1,18 @@
+{{ $url := .Get "url" }}
+{{ $userImage := .Get "image" | default "" }}
+{{ $title := .Get "title" | default $url }}
+{{ $description := .Get "description" | default "" }}
+
+<div class="link-card">
+    <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+        {{ if $userImage }}
+            <img src="{{ $userImage }}" alt="{{ $title }}">
+        {{ else }}
+            <img src="https://www.google.com/s2/favicons?domain={{ $url }}" alt="{{ $title }}">
+        {{ end }}
+        <div class="link-card-content">
+            <h2>{{ $title }}</h2>
+            <p>{{ $description }}</p>
+        </div>
+    </a>
+</div>

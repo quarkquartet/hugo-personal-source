@@ -7,14 +7,19 @@ tags:
   - Baryogenesis
   - Parity
   - Left-Right Symmetry
+  - 学术研究
+  - 物理
+  - 理论物理
+  - 暗物质
+  - 物质起源
 date: '2023-07-05'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-   caption: Photo by rawpixel on Unsplash
-   focal_point: Smart
+   focal_point:
+   preview_only: true
 
 # links:
 #   - icon: paperclip
@@ -34,3 +39,12 @@ image:
 ---
 
 
+## Introduction
+
+Parity is a good solution to the strong CP problem. I have written a [post for strong CP problem and its solutions]({{< relref "../../post/strongCP/index.md#a-description-for-the-strong-cp-problem">}}).
+Basically, we can have a gauge group of the standard parity-symmetric model {{< math >}}$SU(3)_C \times SU(2)_L \times SU(2)_R \times U(1)_{B-L}${{< /math >}}. The next step is: **can this model provide us more solutions to other unsolved puzzles**?
+
+Recently, I've been working in this direction. Things included are: dark matter, baryogenesis, and neutrino masses.
+
+
+## Baryogenesis in parity-symmetric model

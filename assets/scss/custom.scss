@@ -1,7 +1,7 @@
 /*
 Import fonts
 */
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @font-face {
     font-family: 'Kaiti SC';
@@ -40,85 +40,53 @@ Import fonts
     font-weight: normal;
 }
 
-@font-face {
-    font-family: 'Exchange';
-    src: url('/fonts/ExchangeBook.eot');
-    /* IE9 Compat Modes */
-    src: url('/fonts/ExchangeBook.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/fonts/ExchangeBook.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/fonts/ExchangeBook.woff') format('woff'),
-        /* Modern Browsers */
-        url('/fonts/ExchangeBook.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/fonts/ExchangeBook.svg#Exchange') format('svg');
-    /* Legacy iOS */
-    font-style: normal;
-    font-weight: normal;
+
+body {
+    font-family: 'Roboto', 'Arial', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
-@font-face {
-    font-family: 'Exchange';
-    src: url('/fonts/ExchangeBold.eot');
-    /* IE9 Compat Modes */
-    src: url('/fonts/ExchangeBold.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/fonts/ExchangeBold.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/fonts/ExchangeBold.woff') format('woff'),
-        /* Modern Browsers */
-        url('/fonts/ExchangeBold.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/fonts/ExchangeBold.svg#Exchange') format('svg');
-    /* Legacy iOS */
-    font-style: bold;
-    font-weight: bold;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
-@font-face {
-    font-family: 'Exchange';
-    src: url('/fonts/ExchangeLight.eot');
-    /* IE9 Compat Modes */
-    src: url('/fonts/ExchangeLight.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('/fonts/ExchangeLight.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('/fonts/ExchangeLight.woff') format('woff'),
-        /* Modern Browsers */
-        url('/fonts/ExchangeLight.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('/fonts/ExchangeLight.svg#Exchange') format('svg');
-    /* Legacy iOS */
-    font-style: light;
-    font-weight: light;
+h1 {
+    font-size: 2.0rem;
 }
 
-/*
-Define basic fonts
-*/
+h2 {
+    font-size: 1.5rem;
+}
 
-// body {
-//     font-family: 'Exchange', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-// }
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1.0rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
 
 
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//     font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-// }
+.dropdown-item .dropdown-menu .dropdown-item-activate {
+    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
 
-// .dropdown-item .dropdown-menu .dropdown-item-activate {
-//     font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-// }
-
-// .section-subheading {
-//     font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-// }
+.section-subheading {
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
 
 /*Article body*/
 
@@ -135,9 +103,9 @@ Define basic fonts
     font-size: 1.3rem;
 }
 
-// .navbar {
-//     font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-// }
+.navbar {
+    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
 
 /*Experience widget*/
 .experience .card-text {
@@ -155,4 +123,115 @@ Define basic fonts
 
 .exp-meta {
     font-size: 0.9rem;
+}
+
+//卡片式链接样式 cardlink
+
+.card-link,
+.card-link:hover {
+    text-decoration: none;
+    border: none !important;
+    color: inherit !important
+}
+
+.card-link {
+    position: relative;
+    display: block;
+    margin: 1em auto;
+    // width: 500px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 80%;
+    overflow: hidden;
+    color: inherit;
+    text-decoration: none
+}
+
+.ztext {
+    word-break: break-word;
+    line-height: 1.6
+}
+
+.card-link-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/images/card-link-bg.jpg);
+    background-repeat: no-repeat;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    background-size: cover;
+    background-position: center
+}
+
+.card-link,
+.card-link:hover {
+    text-decoration: none;
+    border: none !important;
+    color: inherit !important
+}
+
+.card-link-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: inherit;
+    background-color: rgba(246, 246, 246, 0.88);
+
+    body.dark & {
+        background-color: rgba(61, 62, 65, 0.88);
+        color: #f8f8f2;
+    }
+}
+
+.card-link-text {
+    overflow: hidden
+}
+
+.card-link-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(16px * 1.25 * 2);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #1a1a1a;
+
+    body.dark & {
+        color: #f8f8f2;
+    }
+}
+
+.card-link-meta {
+    display: flex;
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999;
+    white-space: nowrap
+}
+
+.card-link-url {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-link-imageCell {
+    margin-left: 8px;
+    border-radius: 6px;
+}
+
+.card-link-image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: inherit;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
 }

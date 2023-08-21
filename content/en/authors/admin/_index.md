@@ -22,7 +22,7 @@ organizations:
     url: https://www.physics.rutgers.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ph.D candidate in theoretical particle physics. Music and sports lover. Neo-liberalism.
+bio: Researcher on theoretical particle physics/cosmology. Music and sports lover. Neo-liberalism.
 
 # Interests to show in About widget
 interests:
@@ -68,7 +68,7 @@ social:
 #  icon_pack: fab
 #  link: https://www.linkedin.com/
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai

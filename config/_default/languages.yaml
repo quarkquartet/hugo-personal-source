@@ -23,6 +23,10 @@ zh:
       - name: 研究方向
         url: 'research/'
         weight: 20
+
+      - name: 博客
+        url: 'blogs'
+        weight: 30
       - name: 联系方式
         url: 'contact/'
         weight: 60

@@ -62,4 +62,5 @@ Beyond these topics, I also work on some other topics within particle cosmology 
 
 # Projects
 
-Here is a list of the projects that I've worked on.
+Here is a list of the projects that I've worked on. The introduction of each projects are really introductory and only assumes the reader have the basic knowledge of quantum field theory or even less.
+If you are an expert and want to have a quick understanding of what I'm working on, skip the introduction section.
