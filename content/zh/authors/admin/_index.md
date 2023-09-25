@@ -14,15 +14,15 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-role: 博士研究生
+role: 博士后研究员
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: 罗格斯大学物理系
-    url: https://www.physics.rutgers.edu/
+  - name: 费米国家实验室 - 理论部
+    url: https://theory.fnal.gov/
 
 # Short bio (displayed in user profile at end of posts)
-bio: 博士研究生，粒子物理与宇宙学理论。
+bio: 博士后研究员，粒子物理与宇宙学理论。音乐和体育爱好者。Neo-liberalism.
 
 # Interests to show in About widget
 interests:
@@ -36,7 +36,7 @@ education:
   courses:
   - course: 物理学博士
     institution: 罗格斯大学
-    year: 2017-
+    year: 2017-2023
   - course: 物理学学士
     institution: 复旦大学
     year: 2013-2017
@@ -72,7 +72,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/resume.pdf
+  link: ../uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

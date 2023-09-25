@@ -14,12 +14,12 @@ last_name: Wang
 superuser: true
 
 # Role/position/tagline
-role: Ph.D Candidate of Theoretical Particle Physics and Cosmology
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Rutgers University
-    url: https://www.physics.rutgers.edu/
+  - name: Fermi National Acclerator Laboratory - Theory Division
+    url: https://theory.fnal.gov/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Researcher on theoretical particle physics/cosmology. Music and sports lover. Neo-liberalism.
@@ -48,13 +48,13 @@ education:
 
 social:
 #- icon: envelope
-#  icon_pack: fas
+#  icon_pack: fas 
 #  link: '/#contact'
 
 - icon: envelope
   icon_pack: fas
   link: "mailto:isaac.wang.us@gmail.com"
-  
+
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/quarkquartet
