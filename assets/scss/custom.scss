@@ -40,6 +40,9 @@ Import fonts
     font-weight: normal;
 }
 
+.root {
+    font-size: 10px;
+}
 
 body {
     font-family: 'Roboto', 'Arial', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
@@ -60,7 +63,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 h3 {
@@ -96,11 +99,11 @@ h6 {
 
 /*Navigation bar*/
 .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 .navbar-brand {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .navbar {
@@ -201,7 +204,7 @@ h6 {
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: calc(16px * 1.25 * 2);
-    font-size: 20px;
+    font-size: 16;
     font-weight: 500;
     line-height: 1.25;
     color: #1a1a1a;
@@ -232,8 +235,8 @@ h6 {
 
 .card-link-image {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: inherit;
     margin-top: 0rem !important;
     margin-bottom: 0rem !important;
