@@ -36,7 +36,7 @@ education:
   courses:
   - course: Ph.D in Theoretical Particle Physics
     institution: New High Energy Theory Center, Rugters University, NJ, USA
-    year: 2017-
+    year: 2017-2023
   - course: B.S. in Physics
     institution: Fudan University, Shanghai, China
     year: 2013-2017

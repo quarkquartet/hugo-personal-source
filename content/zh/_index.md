@@ -46,18 +46,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: 博士后研究员
+          company: 费米国家实验室理论部
+          company_url: 'https://theory.fnal.gov/'
+          company_logo: FNAL
+          location: Illinois, USA
+          date_start: '2023-10-02'
+          date_end: ''
+          description:
         - title: 博士
           company: 罗格斯大学，高能理论中心
-          company_url: ''
+          company_url: 'https://physics.rutgers.edu/research/high-energy-theory'
           company_logo: Rutgers
           location: New Jersey, USA
           date_start: '2017-09-01'
-          date_end: ''
+          date_end: '2023-09-13'
           description: |2-
               基本信息:
 
-              * 博士论文: Electroweak (-like) phase transition faces baryogenesis
-              * 博士生导师: Prof. David Shih and Prof. Keisuke Harigaya (U-Chicago)
+              * 博士论文: Electroweak (-like) phase transition: baryogenesis, strong CP, and light particles
+              * 博士生导师: David Shih教授与Keisuke Harigaya (張ヶ谷圭介) 教授 (芝加哥大学)
 
               助教经历:
 
@@ -66,7 +74,7 @@ sections:
 
         - title: 本科
           company: 复旦大学，物理系
-          company_url: ''
+          company_url: 'https://phys.fudan.edu.cn/'
           company_logo: Fudan
           location: 上海
           date_start: '2013-09-01'

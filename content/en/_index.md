@@ -46,17 +46,25 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Postdoctoral Researcher
+          company: Fermi National Accelerator Laboratory, Theory Division
+          company_url: 'https://theory.fnal.gov/'
+          company_logo: FNAL
+          location: Illinois, USA
+          date_start: '2023-10-02'
+          date_end: ''
+          description:
         - title: Ph.D.
           company: New High Energy Theory Center, Rutgers University
-          company_url: ''
+          company_url: 'https://physics.rutgers.edu/research/high-energy-theory'
           company_logo: Rutgers
           location: New Jersey, USA
           date_start: '2017-09-01'
-          date_end: ''
+          date_end: '2023-09-13'
           description: |2-
               Basic Information:
 
-              * Thesis: Electroweak (-like) phase transition faces baryogenesis
+              * Thesis: Electroweak (-like) phase transition: baryogenesis, strong CP, and light particles
               * Advisors: Prof. David Shih and Prof. Keisuke Harigaya (U-Chicago)
 
               Teaching experiences:
@@ -66,7 +74,7 @@ sections:
 
         - title: Undergrad
           company: Physics Department, Fudan University
-          company_url: ''
+          company_url: 'https://phys.fudan.edu.cn/'
           company_logo: Fudan
           location: Shanghai, China
           date_start: '2013-09-01'
