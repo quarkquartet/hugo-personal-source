@@ -10,10 +10,10 @@ content:
   phone: (+1) 732-322-1599
   # appointment_url: 'https://calendly.com'
   address:
-    street: Room 384E, 136 Frelinghuysen Rd
-    city: Piscataway
-    region: NJ
-    postcode: '08854'
+    street: Room 373, Wilson Hall, Fermilab, Kirk Rd and Pine St
+    city: Batavia
+    region: IL
+    postcode: '60510'
     country: United States
     country_code: USA
   # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
@@ -24,7 +24,7 @@ content:
     - icon: envelope
       icon_pack: fas
       name: 工作邮箱
-      link: "mailto:isaac.wang@rutgers.edu"
+      link: "mailto:isaacw@fnal.gov"
     - icon: envelope-open
       icon_pack: fas
       name: 个人邮箱

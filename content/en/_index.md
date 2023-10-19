@@ -51,7 +51,7 @@ sections:
           company_url: 'https://theory.fnal.gov/'
           company_logo: FNAL
           location: Illinois, USA
-          date_start: '2023-10-02'
+          date_start: '2023-10-16'
           date_end: ''
           description:
         - title: Ph.D.
