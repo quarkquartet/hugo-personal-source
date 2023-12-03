@@ -36,6 +36,7 @@ content:
     - icon: github
       icon_pack: fab
       name: My GitHub Repository
+      link: 'https://github.com/quarkquartet'
  #  contact_links:
  #    - icon: twitter
  #      icon_pack: fab
