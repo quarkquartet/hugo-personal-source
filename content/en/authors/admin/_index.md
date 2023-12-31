@@ -81,7 +81,7 @@ email: ''
 highlight_name: true
 ---
 
-I'm Isaac Wang, a postdoc researcher at Theory Division, Fermilab. I work at the frontier of particle physics and cosmology. I finished my undergrad in Shanghai before I move to Rutgers to acquire my Ph.D. degree.
+I'm Isaac Wang, a postdoc researcher at Theory Division, Fermilab. I work at the frontier of particle physics and cosmology. I finished my undergrad in Shanghai before I moved to Rutgers to acquire my Ph.D. degree.
 
 My publications can be found [here](https://inspirehep.net/authors/1852425?ui-citation-summary=true).
 
