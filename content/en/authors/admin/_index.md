@@ -28,16 +28,17 @@ bio: Researcher on theoretical particle physics/cosmology. Music and sports love
 interests:
   - The origin of matter-antimatter asymmetry
   - Electroweak or electroweak-like phase transitions
-  - Strong CP problem
+  - strong CP problem
   - The origin of dark matter
+  - Gravitational wave signatures from cosmological phase transitions
 
 # Education to show in About widget
 education:
   courses:
-  - course: Ph.D. in Theoretical Particle Physics
+  - course: Ph.D. in theoretical particle physics
     institution: New High Energy Theory Center, Rugters University, NJ, USA
     year: 2017-2023
-  - course: B.S. in Physics
+  - course: B.S. in physics
     institution: Fudan University, Shanghai, China
     year: 2013-2017
 

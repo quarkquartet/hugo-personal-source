@@ -3,13 +3,13 @@ title: A General Introduction to the Strong CP Problem
 summary: An introduction about strong CP problem and its solutions. Readers are assumed to have basic knowledge of quantum field theory, but not more.
 author: admin
 tags:
-  - Strong CP Problem
-  - Dark Matter
-  - Parity
-  - Left-Right Symmetry
-  - Physics
-  - Research
-  - Baryogenesis
+  - strong CP problem
+  - dark Matter
+  - parity
+  - left-right symmetry
+  - physics
+  - research
+  - baryogenesis
 date: '2023-08-13'
 reading_time: true
 # Optional external URL for project (replaces project detail page).

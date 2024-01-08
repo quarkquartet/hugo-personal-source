@@ -65,7 +65,7 @@ sections:
               基本信息:
 
               * 博士论文: Electroweak (-like) phase transition: baryogenesis, strong CP, and light particles
-              * 博士生导师: David Shih教授与Keisuke Harigaya (張ヶ谷圭介) 教授 (芝加哥大学)
+              * 博士生导师: David Shih教授、Keisuke Harigaya (張ヶ谷圭介) 教授 (芝加哥大学)
 
               助教经历:
 
@@ -185,17 +185,17 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
+  - block: collection
+    id: featured
+    content:
+      title: 精选发表
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   # - block: collection
   #   content:
   #     title: Recent Publications

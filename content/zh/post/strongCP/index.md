@@ -3,8 +3,8 @@ title: A General Introduction to the Strong CP Problem
 summary: An introduction about strong CP problem and its solutions. Readers are assumed to have basic knowledge of quantum field theory, but not more.
 author: admin
 tags:
-  - Strong CP Problem
-  - Dark Matter
+  - strong CP Problem
+  - dark Matter
   - Parity
   - Left-Right Symmetry
   - 物理

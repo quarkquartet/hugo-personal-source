@@ -28,7 +28,7 @@ bio: 博士后研究员，粒子物理与宇宙学理论。音乐和体育爱好
 interests:
   - 正反物质不对称的起源
   - 早期宇宙中的电弱相变
-  - Strong CP problem
+  - strong CP problem
   - 暗物质的起源
 
 # Education to show in About widget

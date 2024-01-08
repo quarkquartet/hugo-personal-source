@@ -43,7 +43,7 @@ sections:
         - name: All
           tag: '*'
         - name: Research
-          tag: Research
+          tag: research
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.

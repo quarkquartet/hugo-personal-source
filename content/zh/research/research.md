@@ -11,7 +11,7 @@ content:
   filters:
     # Folders to display content from
     folders:
-      - projects
+      - project
     # Uncomment below to only show content with specific tags:
 #    tags:
 #      - Machine Learning
