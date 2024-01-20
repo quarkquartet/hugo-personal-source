@@ -188,7 +188,8 @@ sections:
   - block: collection
     id: featured
     content:
-      title: 精选发表
+      title: 精选文章
+      count: 100
       filters:
         folders:
           - publication
