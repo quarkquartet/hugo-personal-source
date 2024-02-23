@@ -51,13 +51,21 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
+
 My work lies at the intersection of theoretical particle physics and cosmology, with a special focous on the origin of matter-antimatter asymmetry.
 In particular, I pay attention to models associated with electroweak (-like) phase transitions.
-Models that can be compatible with solutions to other problems in particle physics will always catch my eyes.
+Models that can be compatible with solutions to other problems in particle physics will catch my eyes.
+Specifically, I care about the strong CP problem, dark matter candidate, and naturalness on various topics.
+Following this sake, the computational uncertainties in the electroweak phase transtion and baryogenesis, including the effective potential, wall velocity, and gravitational waves, are appealing topics for me.
+Sometimes interesting models or mechanisms may strongly motivate me to work on phenomenology probes, such as gravitational wave signals from phase transitions, uncovered collider signals, dark matter probes on various experiments, and so forth.
 
-I also have a keen interest in exploring computational uncertainties, intriguing dynamics and phase structures. These aspects will be central to the research I plan to conduct in the near future.
-
-Beyond these topics, I also work on some other topics within particle cosmology such as dark matter, or some experimental/cosmological probes for interesting physics, including LHC physics, beam-dump experiments, and other cosmological signals.
+More specifically, I'm focusing on the following topics in the recent days. Any discussion about these topics are welcome. This includes:
+- New models for electroweak baryogenesis that is different from traditional scalar extensions.
+- Wall velocity computation in electroweak-like phase transitions.
+- Gravitational wave calculation and understanding in electroweak-like phase transitions.
+- Any interesting imprints of axion rotations.
+- Possible realization of axiogenesis.
+- Building up of the parity-symmetric model to solve various problems.
 
 
 # Projects
