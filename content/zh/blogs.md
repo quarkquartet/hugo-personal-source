@@ -45,6 +45,8 @@ sections:
           tag: 学术研究
         - name: 学术生涯
           tag: 学术生涯
+        - name: 体育话题
+          tag: 体育
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
