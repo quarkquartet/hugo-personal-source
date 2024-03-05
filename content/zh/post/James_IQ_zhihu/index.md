@@ -5,6 +5,8 @@ description: 詹姆斯的球商高在哪里？这是知乎上一个存在了许�
 layout: posts
 tags: ["NBA", "篮球", "体育", "詹姆斯", "球商" ,"FIBA", "奥运", "动图"]
 summary: 本文首发于知乎。
+image:
+    preview_only: true
 ---
 
 本文首发于知乎。

@@ -14,6 +14,7 @@ zh:
   contentDir: content/zh
   title: 夸克四重奏
   params:
+    noreadingtime: true
     description: Site description in Chinese...
   menu:
     main:
