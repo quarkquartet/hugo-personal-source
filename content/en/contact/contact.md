@@ -21,13 +21,9 @@ content:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'
   contact_links:
-    - icon: envelope
-      icon_pack: fas
-      name: Work Email
-      link: "mailto:isaacw@fnal.gov"
     - icon: envelope-open
       icon_pack: fas
-      name: Personal Email
+      name: Email
       link: "mailto:isaac.wang.us@gmail.com"
     - icon: twitter
       icon_pack: fab
@@ -72,7 +68,9 @@ design:
 
 You can find my contact information here.
 
-I encourage you to contact me via the work email if you would like to talk about physics. Otherwise, you can send me email to my personal email address, or contact me on Twitter.
+You can send me email via the link button in this page, or contact me on Twitter.
+
+Please send email to my personal gmail address whatever subject do you want to write, since Fermilab has recently made it unacceptably difficult to check their official email system.
 
 Contacting me via instant chat app is also possible (and actually preferred after we get familiar with each other), but a first contact via the above methods is needed.
 After that, you can reach me out on skype for academic chatting and on Telegram for all the other stuffs.

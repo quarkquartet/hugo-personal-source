@@ -21,13 +21,9 @@ content:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'
   contact_links:
-    - icon: envelope
-      icon_pack: fas
-      name: 工作邮箱
-      link: "mailto:isaacw@fnal.gov"
     - icon: envelope-open
       icon_pack: fas
-      name: 个人邮箱
+      name: 邮箱
       link: "mailto:isaac.wang.us@gmail.com"
     - icon: twitter
       icon_pack: fab
@@ -72,9 +68,11 @@ design:
 
 我在这里列举了一些联系方式，请根据需求选择合适的途径。原则上我欢迎各类话题的讨论，不仅限于工作，但联系方式分开。
 
-如果想讨论物理科研、工作，请给我的工作邮箱发邮件。
+如果想讨论物理科研、工作，请给我发邮件。
 
-如果想讨论其他的话题，可以给我的私人邮箱发邮件，或者关注我的推特以及脸书（不常发，但会看，也会去聊）。
+如果想讨论其他的话题，也可以给我的发邮件，或者关注我的推特以及脸书（不常发，但会看，也会去聊）。
+
+无论什么内容的邮件，请一律发送至我个人的gmail信箱，见本页按钮。
 
 各类聊天app我大部分都有，但是有倾向。方便起见，这里不公开账号信息。如果需要，请给我发邮件（记得根据目的选择发在哪个邮箱），介绍一下自己，说一下想聊什么，然后可以交换联系方式。
 
