@@ -1,0 +1,11 @@
+# Font style metadata
+name = "My Font"
+
+# Optional Google font URL
+google_fonts = "family=family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900"
+
+# Font families
+heading_font = "Cormorant Infant"
+body_font = "Montserrat"
+nav_font = "Cormorant Infant"
+mono_font = ""
