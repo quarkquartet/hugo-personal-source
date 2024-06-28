@@ -2,6 +2,11 @@
 Import fonts
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 
 @font-face {
     font-family: 'Kaiti SC';
@@ -40,12 +45,14 @@ Import fonts
     font-weight: normal;
 }
 
+/* Some basic font settings */
+
 .root {
     font-size: 10px;
 }
 
 body {
-    font-family: 'Roboto', 'Arial', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+    font-family: 'Montserrat', 'Arial', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
 
@@ -55,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+    font-family: 'Literata', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
 h1 {
@@ -82,22 +89,18 @@ h6 {
     font-size: 0.9rem;
 }
 
+/* Background color */
+
+.dark .home-section .home-section-bg {
+    background-color: #2A2C31;
+}
+
+/*Menus*/
 
 .dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: Georgia, -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+    font-family: 'Literata', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
-.section-subheading {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-}
-
-/*Article body*/
-
-.article-container {
-    max-width: 1000px;
-}
-
-/*Navigation bar*/
 .nav-link {
     font-size: 1.25rem;
 }
@@ -107,10 +110,24 @@ h6 {
 }
 
 .navbar {
-    font-family: Georgia, 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+    font-family: 'Literata', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
 }
 
-/*Experience widget*/
+/*Article body and Sections*/
+
+.section-subheading {
+    font-family: 'Literata', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+}
+
+
+.article-container {
+    max-width: 1000px;
+}
+
+
+
+/* Experience widget */
+
 .experience .card-text {
     font-size: 0.9rem !important;
 }
@@ -131,7 +148,16 @@ h6 {
     font-size: 0.9rem;
 }
 
-//卡片式链接样式 cardlink
+.dark .card .section-subheading a {
+    color: #38a9ff;
+    border-bottom: solid 1px transparent;
+}
+
+.btn-outline-primary:hover {
+    border-color: #38a9ff !important;
+}
+
+/* Card Link Style */
 
 .card-link,
 .card-link:hover {
@@ -157,6 +183,7 @@ h6 {
     word-break: break-word;
     line-height: 1.6
 }
+
 
 .card-link-backdrop {
     position: absolute;

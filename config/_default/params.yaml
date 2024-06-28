@@ -8,7 +8,7 @@
 appearance:
   theme_day: my_theme
   theme_night: my_theme
-  font: rose
+  font: Minimal
   font_size: m
 
 # SEO
@@ -62,7 +62,7 @@ locale:
 features:
   syntax_highlighter:
     # theme_light: github-light
-    theme_dark: doom-one
+    theme_dark: dracula
   math:
     enable: true
   privacy_pack:

@@ -27,17 +27,18 @@ bio: 博士后研究员，粒子物理与宇宙学理论。音乐和体育爱好
 # Interests to show in About widget
 interests:
   - 正反物质不对称的起源
-  - 早期宇宙中的电弱相变
-  - strong CP problem
-  - 暗物质的起源
+  - 早期宇宙中的电弱相变、类电弱相变，以及其他的宇宙学相变
+  - Strong CP probleS
+  - 暗物质的起源与探测
+  - 中微子质量的起源、中微子的相互作用以及探测
 
 # Education to show in About widget
 education:
   courses:
-  - course: 物理学博士
+  - course: 理论粒子物理与宇宙学，博士
     institution: 罗格斯大学
     year: 2017-2023
-  - course: 物理学学士
+  - course: 物理学，学士
     institution: 复旦大学
     year: 2013-2017
 
