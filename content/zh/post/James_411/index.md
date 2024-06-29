@@ -1,11 +1,40 @@
 ---
-date: 2024-03-03
-title: 让我们忘记411吧
-layout: posts
-tags: ["NBA", "篮球", "体育", "詹姆斯"]
+title: 跨过411，回顾当年崎岖路，已是一片万山红
+
+# Summary for listings and search engines
+summary: 
+
+# Date published
+date: '2024-03-03'
+
+# Date updated
+lastmod: '2024-03-03'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-    preview_only: false
-summary: 411是詹姆斯伟大征程的又一个里程碑，但对于他从未停止的步伐来说，面对里程碑的态度更多的是淡然。
+  preview_only: false
+
+authors:
+  - admin
+
+tags:
+  - NBA
+  - 体育
+  - 詹姆斯
+  - 篮球
+  - Lebron James
+
+# categories:
+#   - 学术
+#   - 生涯
+#   - 物理
 ---
 
 四万分的这一天，比我想象的早不少。说老实话，哪怕作为一个粉了詹姆斯将近18年的球迷，哪怕是在2020年全程见证了他季后赛令人匪夷所思的高效表演之后，我依然不那么相信他真的可以拿到四万分。

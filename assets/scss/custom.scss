@@ -194,7 +194,7 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
 
 .section-subheading:lang(zh-Hans) {
     font-family: var(--heading-font-family);
-    font-size: 1.2em !important;
+    font-size: 1.1em;
 }
 
 
@@ -203,11 +203,11 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
 }
 
 .article-metadata {
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 .article-title {
-    font-size: 1.3em !important;
+    font-size: 1.0em !important;
 }
 
 /* Lists */
@@ -222,7 +222,7 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
 }
 
 .card-simple .article-style {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
 }
 
 .dark .card-simple {

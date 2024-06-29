@@ -1,12 +1,45 @@
 ---
-date: 2023-09-21
 title: 詹姆斯的球商高在哪里？：从伦敦奥运决赛分析
-description: 詹姆斯的球商高在哪里？这是知乎上一个存在了许久的问题。本文首发于知乎，用来回答这个问题。
-layout: posts
-tags: ["NBA", "篮球", "体育", "詹姆斯", "球商" ,"FIBA", "奥运", "动图"]
-summary: 本文首发于知乎。
+
+# Summary for listings and search engines
+summary: 詹姆斯的球商高在哪里？这是知乎上一个存在了许久的问题。本文首发于知乎，用来回答这个问题。
+
+# Date published
+date: '2023-09-21'
+
+# Date updated
+lastmod: '2023-09-21'
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-    preview_only: true
+  preview_only: false
+
+authors:
+  - admin
+
+tags:
+  - 篮球
+  - NBA
+  - 詹姆斯
+  - 篮球智商
+  - basketball IQ
+  - Lebron James
+  - 动图
+  - 战术分析
+  - Tactics
+  - 体育
+
+# categories:
+#   - 学术
+#   - 生涯
+#   - 物理
 ---
 
 本文首发于知乎。
