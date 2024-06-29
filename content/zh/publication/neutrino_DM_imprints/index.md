@@ -4,20 +4,20 @@ authors:
 - admin
 - 许勋杰
 date: "2023-12-28"
-# doi: "10.1103/PhysRevD.107.095003 "
+doi: "10.1088/1475-7516/2024/05/050"
 
 # Schedule page publish date (NOT publication's date).
-# publishDate: "2023-05-01"
+publishDate: "2023-05-09"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+# publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-# publication: "Phys.Rev.D"
-# publication_short: "PRD"
+publication: "Journal of Cosmology and Astroparticle Physics"
+publication_short: "JCAP"
 
 abstract: "Neutrinos are often considered as a portal to new physics beyond the Standard Model (SM) and might possess phenomenologically interesting interactions with dark matter (DM). This paper examines the cosmological imprints of DM that interacts with and is produced from SM neutrinos at temperatures below the MeV scale. We take a model-independent approach to compute the evolution of DM in this framework and present analytic results which agree well with numerical ones. Both freeze-in and freeze-out regimes are included in our analysis. Furthermore, we demonstrate that the thermal evolution of neutrinos might be substantially affected by their interaction with DM. We highlight two distinctive imprints of such DM on neutrinos: (i) a large, negative contribution to $N_{\\rm eff}$, which is close to the current experimental limits and will readily be probed by future experiments; (ii) spectral distortion of the cosmic neutrino background (C$\\nu$B) due to DM annihilating into neutrinos, a potentially important effect for the ongoing experimental efforts to detect C$\\nu$B."
 
@@ -51,7 +51,7 @@ url_pdf: https://arxiv.org/pdf/2312.17151.pdf
 image:
   # caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -60,6 +60,8 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - DM-mediator
+- Neutrino
+
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

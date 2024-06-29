@@ -25,9 +25,13 @@ zh:
         url: 'research/'
         weight: 20
 
+      - name: 学术发表
+        url: 'publication/'
+        weight: 30
+
       - name: 博客文章
         url: 'blogs'
-        weight: 30
+        weight: 40
       - name: 联系方式
         url: 'contact/'
         weight: 60

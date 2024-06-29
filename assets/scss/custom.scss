@@ -83,7 +83,7 @@ body {
 }
 
 body:lang(zh-Hans) {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     /* Larger font size for Simplified Chinese */
 
 }
@@ -164,22 +164,8 @@ h6 {
     font-size: 1.3rem;
 }
 
-/*Article body and Sections*/
 
-.section-subheading {
-    font-family: var(--heading-font-family);
-    font-size: 1.5em;
-}
-
-
-.article-container {
-    max-width: 1000px;
-}
-
-.article-metadata {
-    font-size: 0.9em;
-}
-
+/* About */
 .institution {
     font-size: 0.9rem !important;
 }
@@ -196,6 +182,40 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
     font-size: 1.0rem !important;
 }
 
+
+
+
+/*Article body and Sections*/
+
+.section-subheading {
+    font-family: var(--heading-font-family);
+    font-size: 1.5em;
+}
+
+
+.article-container {
+    max-width: 1000px;
+}
+
+.article-metadata {
+    font-size: 0.9em;
+}
+
+.article-title {
+    font-size: 1.3em !important;
+}
+
+/* Lists */
+.media.stream-item .article-style {
+    margin-top: 2px;
+    font-size: 1.0rem;
+}
+
+.dark .badge-light {
+    color: #38a9ff;
+    border: var(--blue);
+}
+
 .card-simple .article-style {
     font-size: 0.9rem;
 }
@@ -205,10 +225,7 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
     border: 0;
 }
 
-.dark .badge-light {
-    color: #38a9ff;
-    border: var(--blue);
-}
+
 
 /* Experience widget */
 
