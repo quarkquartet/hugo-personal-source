@@ -49,15 +49,44 @@ Import fonts
 
 /* Some basic font settings */
 :root {
-    --main-font-family: 'Montserrat', 'Arial', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+    --main-font-family: 'Montserrat', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
     --heading-font-family: 'Cormorant Infant', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    --orange: #FFA500;
+}
+
+/* Define dark mode styles */
+@media (prefers-color-scheme: dark) {
+
+    /* Apply the color to all bold text */
+    b,
+    strong {
+        color: var(--orange);
+        /* Bold color for dark mode */
+    }
+
+    /* Optional: Apply the color to elements with bold font-weight */
+    // body * {
+    //     font-weight: bold {
+    //         color: var(--orange);
+    //     }
+    // }
+    /* Apply the color to elements with inline styles setting font-weight to bold */
+    body *[style*="font-weight: bold"] {
+        color: #ff9900;
+    }
 }
 
 
 body {
     font-family: var(--main-font-family) !important;
+    line-height: 1.8rem;
 }
 
+body:lang(zh-Hans) {
+    font-size: 1.2rem;
+    /* Larger font size for Simplified Chinese */
+
+}
 
 h1,
 h2,
@@ -77,7 +106,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 h4 {
@@ -99,31 +128,47 @@ h6 {
 }
 
 /*Menus*/
-
-.dropdown-item .dropdown-menu .dropdown-item-activate {
-    font-family: var(--heading-font-family)
-}
-
-.nav-link {
-    font-size: 1.25rem;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-}
-
 .navbar {
     font-family: var(--heading-font-family)
 }
 
-.portrait-title {
-    font-family: var(--heading-font-family) !important;
+.btn-toolbar .btn {
+    font-size: 1.1rem !important;
+}
+
+
+.dropdown-menu .dropdown-item {
+    font-size: 1.1rem !important;
+    font-family: var(--heading-font-family);
+}
+
+.dropdown-item-active {
+    font-size: 1.1rem !important;
+    font-family: var(--heading-font-family);
+}
+
+.nav-link {
+    font-size: 1.35rem;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.portrait-title h2 {
+    font-size: 1.85rem;
+}
+
+
+.portrait-title h3 {
+    font-size: 1.3rem;
 }
 
 /*Article body and Sections*/
 
 .section-subheading {
-    font-family: var(--heading-font-family)
+    font-family: var(--heading-font-family);
+    font-size: 1.5em;
 }
 
 
@@ -131,7 +176,39 @@ h6 {
     max-width: 1000px;
 }
 
+.article-metadata {
+    font-size: 0.9em;
+}
 
+.institution {
+    font-size: 0.9rem !important;
+}
+
+ul.ul-interests li:lang(zh-Hans) {
+    font-size: 1.0rem;
+}
+
+ul.ul-edu li .description p.course:lang(zh-Hans) {
+    font-size: 1.0rem;
+}
+
+.institution:lang(zh-Hans) {
+    font-size: 1.0rem !important;
+}
+
+.card-simple .article-style {
+    font-size: 0.9rem;
+}
+
+.dark .card-simple {
+    background-color: #1E2024;
+    border: 0;
+}
+
+.dark .badge-light {
+    color: #38a9ff;
+    border: var(--blue);
+}
 
 /* Experience widget */
 
@@ -144,11 +221,11 @@ h6 {
 }
 
 .exp-title {
-    font-size: 1.0rem !important;
+    font-size: 1.2rem !important;
 }
 
 .exp-company {
-    font-size: 1.0rem;
+    font-size: 1.15rem !important;
 }
 
 .exp-meta {
@@ -188,7 +265,7 @@ h6 {
 
 .ztext {
     word-break: break-word;
-    line-height: 1.6
+    line-height: 2.4rem;
 }
 
 
@@ -206,12 +283,7 @@ h6 {
     background-position: center
 }
 
-.card-link,
-.card-link:hover {
-    text-decoration: none;
-    border: none !important;
-    color: inherit !important
-}
+
 
 .card-link-content {
     position: relative;
@@ -237,7 +309,7 @@ h6 {
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-height: calc(16px * 1.25 * 2);
+    max-height: calc(16px * 1.25 * 4);
     font-size: 16;
     font-weight: 500;
     line-height: 1.25;
@@ -269,9 +341,17 @@ h6 {
 
 .card-link-image {
     display: block;
-    width: 100px;
+    width: 150px;
     height: 100px;
     border-radius: inherit;
     margin-top: 0rem !important;
     margin-bottom: 0rem !important;
+}
+
+
+/* Figure */
+
+figure figcaption {
+    font-size: 0.9em;
+    ;
 }

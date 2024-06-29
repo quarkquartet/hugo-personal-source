@@ -6,7 +6,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: 我的博文
+      title: 我的博客文章
     #   subtitle: My subtitle
       text: |2-
         这里是我的博客。所有的博客文章都在这里。文章涉及的话题非常广，从专业到爱好都有可能涉及，下面有按钮可供筛选话题。
@@ -41,7 +41,7 @@ sections:
       buttons:
         - name: 全部文章
           tag: '*'
-        - name: 学术相关
+        - name: 学术研究
           tag: 学术研究
         - name: 学术生涯
           tag: 学术生涯

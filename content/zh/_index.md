@@ -14,7 +14,7 @@ sections:
     design:
       background:
         image:
-          filename: wallpaper4.jpg
+          filename: wallpaper.jpg
           filters:
             brightness: 0.7
         text_color_light: true
@@ -188,7 +188,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: 精选文章
+      title: 精选学术发表
       count: 100
       filters:
         folders:

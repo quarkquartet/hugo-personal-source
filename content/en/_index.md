@@ -14,7 +14,7 @@ sections:
     design:
       background:
         image:
-          filename: wallpaper4.jpg
+          filename: wallpaper.jpg
           filters:
             brightness: 0.7
         text_color_light: true
