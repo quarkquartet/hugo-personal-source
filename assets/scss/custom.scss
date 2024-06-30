@@ -8,6 +8,9 @@ Import fonts
 // @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 //@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 @font-face {
     font-family: 'Kaiti SC';
@@ -47,9 +50,13 @@ Import fonts
 }
 
 
+
+
+
+
 /* Some basic font settings */
 :root {
-    --main-font-family: 'Montserrat', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
+    --main-font-family: 'Raleway', 'STHeiti', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
     --heading-font-family: 'Cormorant Garamond', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
     --orange: #FFA500;
 }
@@ -82,11 +89,7 @@ body {
     line-height: 1.8rem;
 }
 
-body:lang(zh-Hans) {
-    font-size: 1.25rem;
-    /* Larger font size for Simplified Chinese */
 
-}
 
 h1,
 h2,
@@ -110,7 +113,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 h5 {
@@ -134,6 +137,7 @@ h6 {
 
 .btn-toolbar .btn {
     font-size: 1.1rem !important;
+    font-family: var(--heading-font-family);
 }
 
 
@@ -170,20 +174,6 @@ h6 {
     font-size: 0.9rem !important;
 }
 
-ul.ul-interests li:lang(zh-Hans) {
-    font-size: 1.0rem;
-}
-
-ul.ul-edu li .description p.course:lang(zh-Hans) {
-    font-size: 1.0rem;
-}
-
-.institution:lang(zh-Hans) {
-    font-size: 1.0rem !important;
-}
-
-
-
 
 /*Article body and Sections*/
 
@@ -192,10 +182,6 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
     font-size: 1.5em;
 }
 
-.section-subheading:lang(zh-Hans) {
-    font-family: var(--heading-font-family);
-    font-size: 1.1em;
-}
 
 
 .article-container {
@@ -204,10 +190,6 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
 
 .article-metadata {
     font-size: 0.85em;
-}
-
-.article-title {
-    font-size: 1.0em !important;
 }
 
 /* Lists */
@@ -225,12 +207,20 @@ ul.ul-edu li .description p.course:lang(zh-Hans) {
     font-size: 0.9rem !important;
 }
 
+
+.card-simple .article-title {
+    font-size: 1.3rem;
+}
+
 .dark .card-simple {
     background-color: #1E2024;
     border: 0;
 }
 
 
+.card .card-text p {
+    font-size: 0.9rem;
+}
 
 /* Experience widget */
 
