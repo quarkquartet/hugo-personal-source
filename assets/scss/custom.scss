@@ -97,7 +97,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font-family)
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    margin-top: 1.2rem;
 }
 
 h1 {
