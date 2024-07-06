@@ -47,25 +47,46 @@ design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   # Choose a listing view
-  view: 3
+  view: masonry
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
 
-我关注粒子物理和宇宙学理论的前沿。其中，正反物质不对称问题是我目前最主要关注的问题。
-我关注正反物质不对称的可能的产生机制和模型，特别是借助电弱相变运行的机制，希望能够找到一些能够产生这种不对称性，同时又可以解决一部分其他粒子物理前沿问题的模型。在这些问题里面，我比较关注的是strong CP problem，暗物质问题，以及各种各样的naturalness问题。
-相应的，电弱相变中一些尚未解决的计算问题也是我关注的重点，例如bubble wall velocity的计算，引力波的产生，有效势的计算等等。
-如果我发现比较感兴趣的模型还存在一些目前没有讨论过的可能在实验上探测的方式，我也会乐于寻找一些可能的探测方法，例如引力波信号，对撞机信号，以及对各种暗物质探测实验的利用。
+我关注粒子物理和宇宙学的理论前沿。以下是我最关心的问题：
+- 正反物质不对称的起源。
+- 暗物质的起源。
+- Strong CP Problem
+- 中微子质量的起源，以及中微子的相互作用。
 
-具体而言，我最近关注以下几个话题，欢迎一起讨论。
-- Electroweak baryogenesis的新模型，尤其是区别于传统的scalar extension的模型。
-- 相变中Wall velocity的计算。
-- 相变中引力波的计算。
-- Axion rotation产生的信号。
-- Axiogenesis的一些具体实现方式
-- 左右对称的模型的构建。
+我既关心前沿的实验探测(bottom-up)，也关心理论模型的构建(upside-down)。
+目前而言，我的研究大概可以总结如下。
+
+## 实验前沿
+
+我关注最新的实验和观测。
+具体来说，以下几类话题我尤为感兴趣：
+- 暗物质和mediator的简化模型(simplified model)以及相应的探测。
+- 中微子自相互作用在实验和天文观测上的信号。
+- 暗物质和中微子的宇宙学。
+- 一些理论计算上的争议问题。例如电弱相变、引力波、暗物质的热动力学等。
+
+## 理论模型
+
+我非常喜欢新奇有趣的理论模型，喜欢能够巧妙的解释多个问题的模型。特别来讲，如果模型包括以下元素，我会尤为感兴趣：
+- 能够解决Strong CP problem。
+- Electroweak baryogenesis
+- 其他各类能解释正反物质不对称的模型。
+- 解释中微子质量。
+- 有暗物质候选者。
+
+我会致力于对喜欢的模型进行扩展和分析，或者探索新的模型/机制。举几个例子，我目前比较喜欢的模型包括但不限于：
+- 宇称对称的模型。
+- Rotating axion
+- Twin/Mirror sector model。
 
 
+<h1 align=center>科研项目</h1>
+下面是我做过的一些科研项目。
 
-# Projects
-下面是我做过的一些project。
+<br>
+</br>

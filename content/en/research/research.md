@@ -47,7 +47,7 @@ design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   # Choose a listing view
-  view: 3
+  view: masonry
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
@@ -86,8 +86,11 @@ I work to extend those models and investigate their imprints in the universe and
 - Twin/Mirror sector models.
 
 
-# Projects
+<h1 align=center>Projects</h1>
 
 
 Here is a list of the projects that I've been working on/have finished. The introduction of these projects are really introductory, and the readers are just required to have some basic knowledge of quantum field theory.
 If you are an expert and want to have a quick understanding of what I'm working on, skip the introduction section.
+
+<br>
+</br>
