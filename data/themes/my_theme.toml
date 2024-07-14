@@ -6,7 +6,7 @@ name = "My Theme"
 primary = "#1565c0"
 
 # Menu
-menu_primary = "rgb(42,44,49)"
+menu_primary = "#2a2c31"
 menu_text = "#fff"
 menu_text_active = "#38a9ff"
 menu_title = "#fff"
@@ -20,9 +20,9 @@ link_hover = "#38a9ff"
 
 [dark]
 # Primary
-background = "rgb(42,44,49)"
+background = "#2a2c31"
 
-menu_primary = "rgb(42,44,49)"
+menu_primary = "#1e2024"
 menu_text_active = "#38a9ff"
 link = "#38a9ff"
 link_hover = "#38a9ff"

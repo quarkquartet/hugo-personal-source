@@ -56,7 +56,7 @@ Import fonts
 
 /* Some basic font settings */
 :root {
-    --main-font-family: 'Raleway', 'STHeiti', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
+    --main-font-family: 'Montserrat', 'STHeiti', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
     --heading-font-family: 'Cormorant Garamond', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
     --orange: #FFA500;
 }
@@ -89,7 +89,9 @@ body {
     line-height: 1.8rem;
 }
 
-
+body.dark {
+    color: #FFFFFF;
+}
 
 h1,
 h2,
@@ -131,6 +133,7 @@ h6 {
 .dark .home-section .home-section-bg {
     background-color: #2A2C31;
 }
+
 
 /*Menus*/
 .navbar {
@@ -219,6 +222,9 @@ h6 {
     border: 0;
 }
 
+.dark .card {
+    background-color: #1e2024;
+}
 
 .card .card-text p {
     font-size: 0.9rem;
