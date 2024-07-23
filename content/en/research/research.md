@@ -52,7 +52,7 @@ design:
   flip_alt_rows: false
 ---
 
-My work lies at the intersection of theoretical particle physics and cosmology, with special focus on the following topics:
+My research lies at the intersection of theoretical particle physics and cosmology, with special focus on the following topics:
 - The origin of matter-antimatter asymmetry
 - The origin of dark matter
 - Strong CP problem
