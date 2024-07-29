@@ -1,5 +1,5 @@
 ---
-title: 詹姆斯的球商高在哪里？：从伦敦奥运决赛分析
+title: 詹姆斯的球商高在哪里？从伦敦奥运决赛分析
 
 # Summary for listings and search engines
 summary: 詹姆斯的球商高在哪里？这是知乎上一个存在了许久的问题。本文首发于知乎，用来回答这个问题。
@@ -35,6 +35,8 @@ tags:
   - 战术分析
   - Tactics
   - 体育
+  - 奥运会
+  - Kevin Durant
 
 # categories:
 #   - 学术
