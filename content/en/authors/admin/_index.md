@@ -27,7 +27,7 @@ bio: Researcher on theoretical particle physics/cosmology. Music and sports love
 # Interests to show in About widget
 interests:
   - The origin of matter-antimatter asymmetry
-  - Electroweak or electroweak-like phase transitions, and other cosmological phase transitions
+  - Dynamics and signals of electroweak (-like) phase transitions
   - Strong CP problem
   - The origin of dark matter, thermal relics, and their detection
   - The origin of neutrino mass, neutrino interaction, and detection

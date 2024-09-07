@@ -32,7 +32,7 @@ tags:
 - MUonE
 - dark mediator
 - visible decay
-featured: true
+featured: false
 
 links:
 - name: arXiv
