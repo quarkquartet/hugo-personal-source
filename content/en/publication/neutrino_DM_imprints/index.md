@@ -32,7 +32,7 @@ tags:
 - neutrino
 - Boltzmann equation
 - thermal dark matter
-featured: true
+featured: false
 
 links:
 - name: arXiv
@@ -60,6 +60,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - DM-mediator
+- neutrino
 
 share: false
 # Slides (optional).

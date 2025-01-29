@@ -32,7 +32,7 @@ tags:
 - neutrino
 - Boltzmann equation
 - thermal dark matter
-featured: true
+featured: false
 
 links:
 - name: arXiv
