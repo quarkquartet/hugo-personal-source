@@ -4,13 +4,16 @@ summary: '新论文介绍：原初黑洞作为粒子源，可以提供新的宇�
 author: admin
 tags:
   - primordial black hole
-  - dark Matter
+  - 原初黑洞
+  - dark matter
+  - 暗物质
   - axion-like particle
-  - physics
-  - probe
-  - cosmology
-  - astrophysics
+  - 物理
+  - 新物理探测
+  - 宇宙学
+  - 天体物理
   - asymmetric dark matter
+  - 间接探测
   - indirect detection
 date: '2024-12-23'
 reading_time: true

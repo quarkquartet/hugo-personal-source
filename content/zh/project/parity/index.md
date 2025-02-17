@@ -3,7 +3,7 @@ title: Parity-symmetric model
 summary: A type of models that can solve the strong CP problem, with large potential to explain the origin of matter-antimatter asymmetry and provide dark matter candidate.
 tags:
   - strong CP Problem
-  - dark Matter
+  - dark matter
   - Baryogenesis
   - Parity
   - Left-Right Symmetry

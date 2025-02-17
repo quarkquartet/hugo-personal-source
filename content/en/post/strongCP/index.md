@@ -4,7 +4,7 @@ summary: An introduction about strong CP problem and its solutions. Readers are 
 author: admin
 tags:
   - strong CP problem
-  - dark Matter
+  - dark matter
   - parity
   - left-right symmetry
   - physics
