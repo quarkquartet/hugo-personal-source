@@ -35,8 +35,8 @@ featured: true
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2202.08843
-url_pdf: https://arxiv.org/pdf/2202.08843.pdf
+  url: https://arxiv.org/abs/2501.07624
+url_pdf: https://arxiv.org/pdf/2501.07624
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: '#'
 # url_poster: '#'

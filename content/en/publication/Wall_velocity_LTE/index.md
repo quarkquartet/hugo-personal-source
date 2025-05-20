@@ -27,17 +27,17 @@ abstract: "A precise determination of the bubble wall velocity $v_w$ is crucial 
 summary: We clarify the most efficient way of calculating bubble wall velocities, with a systematic way of implementing the entropy conservation approach with the general equation of state. We numerically confirm the local thermal equilibrium approximation and investigate the parameter dependencies of it. We comment on the impact on the baryogenesis and gravitational waves.
 
 tags:
-- neutrino
-- neutrino self-interaction
-- DSNB
-- spectrum distortion
-- Boltzmann equation
+- electroweak phase transition
+- bubble wall dynamics
+- electroweak baryogenesis
+- gravitational waves
+
 featured: true
 
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2202.08843
-url_pdf: https://arxiv.org/pdf/2202.08843.pdf
+  url: https://arxiv.org/abs/2504.17841
+url_pdf: https://arxiv.org/pdf/2504.17841
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: '#'
 # url_poster: '#'
