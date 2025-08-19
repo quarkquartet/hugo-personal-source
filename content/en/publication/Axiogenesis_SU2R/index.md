@@ -21,7 +21,7 @@ publication_short: "JHEP"
 abstract: The baryon asymmetry of the universe may be explained by rotations of the QCD axion in field space and baryon number violating processes. We consider the minimal extension of the Standard Model by a non-Abelian gauge interaction, $SU(2)_R$, whose sphaleron process violates baryon number. Assuming that axion dark matter is also created from the axion rotation by the kinetic misalignment mechanism, the mass scale of the $SU(2)_R$ gauge boson is fixed as a function of the QCD axion decay constant, and vise versa. Significant portion of the parameter space has already been excluded by new gauge boson searches, and the high-luminocity LHC will further probe the viable parameter space.
 
 # Summary. An optional shortened abstract.
-summary: Axion rotation has been recently proposed to be a possible source of baryogenesis, i.e. 'axiogenesis'. This mechanism, however, cannot account for the observed number of axion dark matter abundance and baryon asymmetry simultaneously in minimal SM + axion. In this paper, we propose a possibility where axiogenesis can be compatible with axion dark matter.
+# summary: Axion rotation has been recently proposed to be a possible source of baryogenesis, i.e. 'axiogenesis'. This mechanism, however, cannot account for the observed number of axion dark matter abundance and baryon asymmetry simultaneously in minimal SM + axion. In this paper, we propose a possibility where axiogenesis can be compatible with axion dark matter.
 
 tags:
 - electroweak phase transition

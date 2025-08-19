@@ -22,7 +22,7 @@ publication_short: "JHEP"
 abstract:  Axion-like particles (ALPs) can be naturally lighter than the electroweak scale. We consider an ALP that couples to the Standard Model Higgs to achieve the strong first-order electroweak phase transition. We discuss the two-field dynamics of the phase transition and the associated computation in detail and identify the viable parameter space. The ALP mass can be from the MeV to GeV scale. Baryon asymmetry can be explained by local baryogenesis without violating the electron electric dipole moment bound. The viable parameter space can be probed through Higgs exotic decay, rare kaon decay, the electron electric dipole moment, and the effective number of neutrinos in the cosmic microwave background. The gravitational-wave signal is too weak to be detected.
 
 # Summary. An optional shortened abstract.
-summary: The coupling between an axion-like particle (ALP) and the Higgs boson can potentially enhance the electroweak phase transition to be strongly first order. Local electroweak baryogensis, which has been ruled out for the traditioanl Higgs operator, can be effective for the operator that couples the ALP with various anomalies. This paper investigates such a scenario with various ways to probe.
+# summary: The coupling between an axion-like particle (ALP) and the Higgs boson can potentially enhance the electroweak phase transition to be strongly first order. Local electroweak baryogensis, which has been ruled out for the traditioanl Higgs operator, can be effective for the operator that couples the ALP with various anomalies. This paper investigates such a scenario with various ways to probe.
 
 tags:
 - electroweak phase transition

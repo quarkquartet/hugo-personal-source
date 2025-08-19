@@ -39,7 +39,7 @@ abstract:  We propose a framework where a phase transition associated with a gau
   The model can be also embedded into a left-right symmetric theory to solve the strong CP problem.
 
 # Summary. An optional shortened abstract.
-summary: It has been known the electroweak baryogenesis (EWBG) in the minimal SM is suppressed by the large damping rate of the quark quasiparticle in the thermal plasma, due to the strong QCD interaction. Old literatures proposed a possibility that lepton scattering may be capable of generating enough baryon asymmetry since the damping rate could be much smaller. Is this really the case? This paper proposes a model that mimic the SM quark sector with chiral leptons. We investigate the thermodynamics in detail and concluded that it could be only marginally OK to generate the baryon asymmetry from a lepton sector with CKM-like structure.
+# summary: It has been known the electroweak baryogenesis (EWBG) in the minimal SM is suppressed by the large damping rate of the quark quasiparticle in the thermal plasma, due to the strong QCD interaction. Old literatures proposed a possibility that lepton scattering may be capable of generating enough baryon asymmetry since the damping rate could be much smaller. Is this really the case? This paper proposes a model that mimic the SM quark sector with chiral leptons. We investigate the thermodynamics in detail and concluded that it could be only marginally OK to generate the baryon asymmetry from a lepton sector with CKM-like structure.
 
 tags:
 - electroweak phase transition

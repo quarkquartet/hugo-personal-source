@@ -23,7 +23,7 @@ publication_short: "PRD"
 abstract: MUonE is a proposed experiment designed to measure the hadronic vacuum polarization contribution to muon $g-2$ through elastic $\mu-e$ scattering. As such it employs an extremely high-resolution tracking apparatus. We point out that this makes MUonE also a very promising experiment to search for displaced vertices from light, weakly-interacting new particles. We demonstrate its potential by showing how it has excellent sensitivity to dark photons in the mass range $10~\mathrm{MeV} \le m_{A'} \le 100~\mathrm{MeV}$ and kinetic mixing parameter $10^{-5} \le \epsilon e \le 10^{-3}$, through the process $\mu^{\pm}\, e^- \to \mu^{\pm}\, e^-\, A'$ followed by $A'\to e^+e^-$.
 
 # Summary. An optional shortened abstract.
-summary: We demonstrate how to search for dark photons by displaced vertex search at the proposed MUonE experiment in the mass range $10~\mathrm{MeV} \le m_{A'} \le 100~\mathrm{MeV}$ and kinetic mixing parameter $10^{-5} \le \epsilon e \le 10^{-3}$, through the process $\mu^{\pm}\, e^- \to \mu^{\pm}\, e^-\, A'$ followed by $A'\to e^+e^-$.
+# summary: We demonstrate how to search for dark photons by displaced vertex search at the proposed MUonE experiment in the mass range $10~\mathrm{MeV} \le m_{A'} \le 100~\mathrm{MeV}$ and kinetic mixing parameter $10^{-5} \le \epsilon e \le 10^{-3}$, through the process $\mu^{\pm}\, e^- \to \mu^{\pm}\, e^-\, A'$ followed by $A'\to e^+e^-$.
 
 tags:
 - dark matter

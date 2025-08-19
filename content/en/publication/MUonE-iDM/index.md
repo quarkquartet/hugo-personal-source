@@ -23,7 +23,7 @@ publishDate: "2024-09-06"
 abstract: The MUonE experiment aims to extract the hadronic contribution to the muon anomalous magnetic moment from a precise measurement of the muon-electron differential scattering cross section. We show that MUonE can also discover thermal relic dark matter using only its nominal experimental setup. Our search strategy is sensitive to models of dark matter in which pairs of pseudo-Dirac fermions are produced in muon-nucleus scattering in the target, and the heavier state decays semi-visibly to yield dilepton pairs displaced downstream from the interaction point. This approach can probe sub-GeV thermal-relic dark matter whose cosmological abundance is governed by the same model parameters that set the MUonE signal strength. Furthermore, our results show that the downstream ECAL plays a key role in rejecting backgrounds for this search, thereby providing strong motivation for the MUonE to keep this component in the final experimental design.
 
 # Summary. An optional shortened abstract.
-summary: We show that MUonE can also discover thermal relic dark matter using only its nominal experimental setup. Furthermore, our results show that the downstream ECAL plays a key role in rejecting backgrounds for this search, thereby providing strong motivation for the MUonE to keep this component in the final experimental design. 
+# summary: We show that MUonE can also discover thermal relic dark matter using only its nominal experimental setup. Furthermore, our results show that the downstream ECAL plays a key role in rejecting backgrounds for this search, thereby providing strong motivation for the MUonE to keep this component in the final experimental design. 
 
 tags:
 - dark matter
