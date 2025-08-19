@@ -86,4 +86,4 @@ highlight_name: true
 
 我生于山东淄博，高中毕业后来到上海，随后在美国罗格斯大学获得博士学位。我的发表记录可以从[InspireHep](https://inspirehep.net/authors/1852425?ui-citation-summary=true)上找到。（本领域一般不使用Google Scholar，如果去那里找的话会有很多遗漏）
 
-页面左边有我的邮箱、推特、github和简历。你也可以在[联系方式](../../contact/)页面上寻找更多的关于我的联系方式的信息。
+页面左边有我的邮箱、推特、github和简历。你也可以在[联系方式](../../../zh/contact/)页面上寻找更多的关于我的联系方式的信息。
