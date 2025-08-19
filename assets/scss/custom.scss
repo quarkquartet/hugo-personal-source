@@ -159,10 +159,16 @@ h6 {
 
 .nav-link {
     font-size: 1.35rem;
+    font-family: var(--heading-font-family);
 }
 
 .navbar-brand {
     font-size: 1.7rem;
+}
+
+.portrait-title {
+    font-family: var(--heading-font-family);
+    font-weight: 600;
 }
 
 .portrait-title h2 {
