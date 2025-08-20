@@ -86,4 +86,4 @@ I'm Isaac Wang, a postdoc researcher at Theory Division, Fermilab. I work at the
 
 My publications can be found [here](https://inspirehep.net/authors/1852425?ui-citation-summary=true).
 
-You can find my CV, Twitter, Github and Email on the left-side of this page, and more on the [contact page](../../../en/contact/).
+You can find my CV, Twitter, Github and Email on the left-side of this page, and more on the [contact page](../../contact/).
