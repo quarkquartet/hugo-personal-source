@@ -13,6 +13,7 @@ Import fonts
 // @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&&display=swap');
 /* Instead of display=swap, try: */
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 
 @font-face {
     font-family: 'Kaiti SC';
@@ -59,7 +60,7 @@ Import fonts
 /* Some basic font settings */
 :root {
     --main-font-family: 'Open Sans', 'STHeiti', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
-    --heading-font-family: 'Abhaya Libre', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    --heading-font-family: 'Bodoni Moda', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
     --orange: #FFA500;
 }
 
