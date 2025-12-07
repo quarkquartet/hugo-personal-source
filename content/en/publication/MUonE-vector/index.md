@@ -32,7 +32,7 @@ tags:
 - visible decay
 - ECAL
 - vector gauge boson
-featured: true
+featured: false
 
 links:
 - name: arXiv

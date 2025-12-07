@@ -34,7 +34,7 @@ tags:
 - Boltzmann equation
 - neutrino self-interaction
 
-featured: true
+featured: false
 
 links:
 - name: arXiv
