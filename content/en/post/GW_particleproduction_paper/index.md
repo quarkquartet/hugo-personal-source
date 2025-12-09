@@ -1,6 +1,6 @@
 ---
 title: 'A new source of gravitation waves: particle production from bubble collision'
-summary: '新论文介绍：相变bubble的碰撞可以产生新粒子，从而成为新的引力波源。'
+summary: 'New paper introduction: gravitational waves can be produced from particles produced from bubble collision in first-order phase transitions.'
 author: admin
 tags:
   - grativational wave

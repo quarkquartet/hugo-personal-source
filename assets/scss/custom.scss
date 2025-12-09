@@ -276,8 +276,9 @@ body.dark .card-simple {
 // }
 
 
-
-
+.section-subheading {
+    font-family: var(--heading-font-family);
+}
 
 /* ------------------------------------------------------------
  * 7. Experience
@@ -331,10 +332,6 @@ body.dark a {
     border-color: var(--color-accent-dark) !important;
 }
 
-/* 统一卡片内链接 hover 行为 */
-.dark .card a:hover {
-    border-bottom: 1px solid var(--color-accent-dark);
-}
 
 /* ------------------------------------------------------------
  * 9. Publications
@@ -346,6 +343,13 @@ body.dark a {
 
 .article-style {
     font-size: 16px !important;
+}
+
+html[lang^="zh"] .article-style {
+    font-size: 17px !important;
+    /* 英文 16px，对应中文 17px，差不多一档 */
+    line-height: 1.7rem;
+    /* 保持你现在的行距不变 */
 }
 
 /* 深色模式：publication 标题链接 = 38A9FF */
@@ -445,4 +449,65 @@ body.dark .article-style p {
 
 figure figcaption {
     font-size: 0.9em;
+}
+
+/* ------------------------------------------------------------
+ * 11. Language-specific typography
+ * ---------------------------------------------------------- */
+
+/* 中文页面整体稍微放大一点字号，修正中英视觉不协调 */
+html[lang^="zh"] body {
+    font-size: 17px;
+    /* 英文 16px，对应中文 17px，差不多一档 */
+    line-height: 1.7rem;
+    /* 保持你现在的行距不变 */
+}
+
+/* 中文页面的标题再轻微抬一点 */
+html[lang^="zh"] h1 {
+    font-size: 2.05rem;
+}
+
+html[lang^="zh"] h2 {
+    font-size: 1.65rem;
+}
+
+html[lang^="zh"] h3 {
+    font-size: 1.4rem;
+}
+
+html[lang^="zh"] h4 {
+    font-size: 1.25rem;
+}
+
+html[lang^="zh"] h5 {
+    font-size: 1.05rem;
+}
+
+html[lang^="zh"] h6 {
+    font-size: 0.95rem;
+}
+
+/* ------------------------------------------------------------
+ * Chinese navbar typography adjustment
+ * ---------------------------------------------------------- */
+
+html[lang^="zh"] .navbar-brand {
+    font-size: 1.4rem;
+    /* 比英文略大一档 */
+}
+
+html[lang^="zh"] .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    /* 中文菜单视觉等效英文 */
+}
+
+/* 英文界面下：放大指向中文的那一项（href 里有 /zh/） */
+html[lang^="en"] .navbar .dropdown-menu .dropdown-item[href*="/zh/"] {
+    font-size: 0.9rem;
+}
+
+/* 中文界面下：放大“不是指向 /en/ 的那一项”（也就是当前中文项，没有 href 或 href 不含 /en/） */
+html[lang^="zh"] .navbar .dropdown-menu .dropdown-item:not([href*="/en/"]) {
+    font-size: 0.9rem;
 }
