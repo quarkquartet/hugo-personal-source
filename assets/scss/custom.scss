@@ -1,98 +1,157 @@
 /*
-Import fonts
-*/
+ * ============================================================
+ * Isaac custom.scss — systematized version
+ * 基于原有配色 / 排版，仅做结构化整理
+ * ============================================================
+ */
 
-// @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* ------------------------------------------------------------
+ * 0. Font imports (Google Fonts for English)
+ *    - 全局主字体仍由 myfont.toml 控制
+ *    - 这里只负责确保 Bodoni / Open Sans 已经加载
+ * ---------------------------------------------------------- */
+
+/* 你现在实际用的就是 Bodoni Moda + Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 
+/* ------------------------------------------------------------
+ * 1. Local Chinese fonts (Kaiti SC)
+ * ---------------------------------------------------------- */
 
 @font-face {
     font-family: 'Kaiti SC';
     src: url('/fonts/Kaiti-SC-Bold.eot');
-    /* IE9 Compat Modes */
-    src: url('/fonts/Kaiti-SC-Bold.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
+    src:
+        url('/fonts/Kaiti-SC-Bold.eot?#iefix') format('embedded-opentype'),
         url('/fonts/Kaiti-SC-Bold.woff2') format('woff2'),
-        /* Super Modern Browsers */
         url('/fonts/Kaiti-SC-Bold.woff') format('woff'),
-        /* Modern Browsers */
         url('/fonts/Kaiti-SC-Bold.ttf') format('truetype'),
-        /* Safari, Android, iOS */
         url('/fonts/Kaiti-SC-Bold.svg#Kaiti SC') format('svg');
-    /* Legacy iOS */
-    font-style: Bold;
-    font-weight: Bold;
+    font-style: normal;
+    font-weight: 700;
 }
-
 
 @font-face {
     font-family: 'Kaiti SC';
     src: url('/fonts/Kaiti-SC-Regular.eot');
-    /* IE9 Compat Modes */
-    src: url('/fonts/Kaiti-SC-Regualr.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
+    src:
+        url('/fonts/Kaiti-SC-Regualr.eot?#iefix') format('embedded-opentype'),
         url('/fonts/Kaiti-SC-Regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
         url('/fonts/Kaiti-SC-Regular.woff') format('woff'),
-        /* Modern Browsers */
         url('/fonts/Kaiti-SC-Regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
         url('/fonts/Kaiti-SC-Regular.svg#Kaiti SC') format('svg');
-    /* Legacy iOS */
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 
+/* ------------------------------------------------------------
+ * 2. Font family variables
+ *    - 英文主字体: Open Sans（由 myfont.toml + GoogleFonts 提供）
+ *    - 标题字体: Bodoni Moda + Kaiti SC
+ *    - 中文 fallback 在这里兜住
+ * ---------------------------------------------------------- */
 
-
-
-
-/* Some basic font settings */
 :root {
-    --main-font-family: 'Open Sans', 'STHeiti', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif;
-    --heading-font-family: 'Bodoni Moda', 'Kaiti SC', -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Literata SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', serif;
+    --main-font-family:
+        'Open Sans',
+        -apple-system,
+        BlinkMacSystemFont,
+        'PingFang SC',
+        'Hiragino Sans GB',
+        'Microsoft YaHei',
+        'WenQuanYi Micro Hei',
+        'STHeiti',
+        sans-serif;
+
+    --heading-font-family:
+        'Bodoni Moda',
+        'Kaiti SC',
+        -apple-system,
+        'Nimbus Roman No9 L',
+        'PingFang SC',
+        'Microsoft YaHei',
+        'WenQuanYi Micro Hei',
+        'ST Heiti',
+        serif;
+
+    /* 原有橙色（主要用于粗体高亮） */
     --orange: #FFA500;
 }
 
-/* Define dark mode styles */
-@media (prefers-color-scheme: dark) {
 
-    /* Apply the color to all bold text */
-    b,
-    strong {
-        color: var(--orange);
-        /* Bold color for dark mode */
-    }
+/* ------------------------------------------------------------
+ * 3. Color tokens
+ *    - 完全沿用原来的色盘，把数值托管到变量里
+ * ---------------------------------------------------------- */
 
-    /* Optional: Apply the color to elements with bold font-weight */
-    // body * {
-    //     font-weight: bold {
-    //         color: var(--orange);
-    //     }
-    // }
-    /* Apply the color to elements with inline styles setting font-weight to bold */
-    body *[style*="font-weight: bold"] {
-        color: #ff9900;
-    }
+:root {
+    /* Light mode */
+    --color-bg-light: #ffffff;
+    --color-surface-light: #ffffff;
+    --color-text-light: #1a1a1a;
+    --color-muted-light: #999999;
+    --color-accent-light: #1565c0;
+    /* 可以后按需改，先用一个正常蓝 */
 }
 
+/* Dark mode — 按原来的 #2A2C31 / #1E2024 / #38A9FF 重建 */
+// body.dark {
+//     --color-bg-dark: #2A2C31;
+//     /* section 背景 */
+//     --color-surface-dark: #1E2024;
+//     /* 卡片背景 */
+//     --color-text-dark: #f8f8f2;
+//     /* 卡片 / 主要文字 */
+//     --color-muted-dark: #999999;
+//     --color-accent-dark: #38A9FF;
+//     /* ✅ 你最喜欢的蓝 */
+// }
+
+/* -------------------------
+ * Dark mode color system
+ * ------------------------- */
+
+body.dark {
+    /* 页面最底层（section 背景） */
+    --color-bg-dark: #26282e;
+    /* 原 #2A2C31 稍微压一点 */
+
+    /* 卡片 / experience / box */
+    --color-surface-dark: #1f2126;
+    /* 比 bg 深一点，但不是纯黑 */
+
+    /* 分隔线 / 非强边界（很少用） */
+    --color-border-dark: #34363c;
+
+    /* 文字 */
+    --color-text-dark: #f8f8f2;
+    --color-muted-dark: #9a9a9a;
+
+    /* Accent 已冻结 */
+    --color-accent-dark: #38A9FF;
+}
+
+/* ------------------------------------------------------------
+ * 4. Global typography
+ * ---------------------------------------------------------- */
 
 body {
     font-family: var(--main-font-family) !important;
-    line-height: 1.8rem;
+    font-size: 16px;
+    line-height: 1.7rem;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-light);
 }
 
+/* 深色模式全局文字颜色 */
 body.dark {
-    color: #FFFFFF;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-dark);
 }
 
+/* 标题用 heading 字体 */
 h1,
 h2,
 h3,
@@ -104,135 +163,99 @@ h6 {
     margin-top: 1.2rem;
 }
 
+/* 标题字号——基本沿用你原来的 scale */
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
+    line-height: 1.25;
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 1.3;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
+    line-height: 1.35;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 
 h5 {
-    font-size: 1.0rem;
+    font-size: 1.05rem;
+    line-height: 1.45;
 }
 
 h6 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
 }
 
-/* Background color */
-
-.dark .home-section .home-section-bg {
-    background-color: #2A2C31;
+/* 粗体高亮：沿用你原来用橙色的习惯 */
+body *[style*="font-weight: bold"] {
+    color: #ff9900;
 }
 
 
-/*Menus*/
+/* ------------------------------------------------------------
+ * 5. Navbar
+ *    - 不大写、不改字体，只控制字号/字距/颜色
+ * ---------------------------------------------------------- */
+
 .navbar {
-    font-family: var(--heading-font-family)
-}
-
-.btn-toolbar .btn {
-    font-size: 1.1rem !important;
     font-family: var(--heading-font-family);
-}
-
-
-.dropdown-menu .dropdown-item {
-    font-size: 1.1rem !important;
-    font-family: var(--heading-font-family);
-}
-
-.dropdown-item-active {
-    font-size: 1.1rem !important;
-    font-family: var(--heading-font-family);
-}
-
-.nav-link {
-    font-size: 1.35rem;
 }
 
 .navbar-brand {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.04em;
 }
 
-.portrait-title h2 {
-    font-size: 1.85rem;
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    // letter-spacing: 0.04em;
+    text-transform: none;
+    /* 明确禁止全大写 */
 }
 
-
-.portrait-title h3 {
-    font-size: 1.3rem;
+.navbar,
+.navbar-nav .nav-link {
+    color: var(--color-text-light);
 }
 
-
-/* About */
-.institution {
-    font-size: 0.9rem !important;
+body.dark .navbar,
+body.dark .navbar-nav .nav-link {
+    color: var(--color-text-dark);
 }
 
-
-/*Article body and Sections*/
-
-.section-subheading {
-    font-family: var(--heading-font-family);
-    font-size: 1.5em;
-}
-
-
-
-.article-container {
-    max-width: 1000px;
-}
-
-.article-metadata {
-    font-size: 0.85em;
-}
-
-/* Lists */
-.media.stream-item .article-style {
-    margin-top: 2px;
-    font-size: 1.0rem;
-}
-
-.dark .badge-light {
-    color: #38a9ff;
-    border: var(--blue);
-}
-
-.card-simple .article-style {
-    font-size: 0.9rem !important;
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--color-accent-dark);
 }
 
 
-.card-simple .article-title {
-    font-size: 1.3rem;
+/* ------------------------------------------------------------
+ * 6. Sections & cards
+ * ---------------------------------------------------------- */
+
+/* 背景：深色模式时沿用你原来的 section 背景 */
+.dark .home-section .home-section-bg {
+    background-color: var(--color-bg-dark);
 }
 
-.dark .card-simple {
-    background-color: #1E2024;
-    border: 0;
+/* 卡片：浅色模式可有轻微边框；深色模式无边框、无阴影 */
+.card,
+.card-simple {
+    border-radius: 0.75rem;
+    background-color: var(--color-surface-light);
+    border: 1px solid #e5e7eb;
 }
 
-.dark .card {
-    background-color: #1e2024;
-}
 
-.card .card-text p {
-    font-size: 0.9rem;
-}
-
-/* Experience widget */
-
-.experience .card-text {
+.card .card-text {
     font-size: 0.9rem !important;
 }
 
@@ -240,97 +263,147 @@ h6 {
     font-size: 0.9rem !important;
 }
 
-.exp-title {
-    font-size: 1.2rem !important;
+body.dark .card,
+body.dark .card-simple {
+    background-color: var(--color-surface-dark);
+    border: 0;
+    box-shadow: none;
 }
 
+// /* 简单卡片里的字体大小（沿用你原来设置） */
+// .card-simple .article-style {
+//     font-size: 16px !important;
+// }
+
+
+
+
+
+/* ------------------------------------------------------------
+ * 7. Experience
+ * ---------------------------------------------------------- */
+
 .exp-company {
-    font-size: 1.15rem !important;
+    font-size: 1.0rem !important;
+}
+
+.exp-title {
+    font-size: 1.0rem !important;
 }
 
 .exp-meta {
     font-size: 0.9rem;
 }
 
+// body.dark .experience,
+body.dark .experience-card,
+body.dark .card {
+    background-color: var(--color-surface-dark);
+}
+
+/* ------------------------------------------------------------
+ * 8. Links & accent colors
+ * ---------------------------------------------------------- */
+
+/* 普通链接（浅色） */
+a {
+    color: var(--color-accent-light);
+}
+
+/* 深色模式下：所有链接默认走 38A9FF */
+body.dark a {
+    color: var(--color-accent-dark);
+}
+
+/* card 中的副标题链接 —— 原来那块你很喜欢，我们系统化一下 */
 .dark .card .section-subheading a {
-    color: #38a9ff;
+    color: var(--color-accent-dark);
     border-bottom: solid 1px transparent;
 }
 
-.btn-outline-primary:hover {
-    border-color: #38a9ff !important;
+/* badge-light 在 dark mode 下的表现 */
+.dark .badge-light {
+    color: var(--color-accent-dark);
 }
 
-/* Card Link Style */
+/* outline 按钮 hover 用同一蓝 */
+.btn-outline-primary:hover {
+    border-color: var(--color-accent-dark) !important;
+}
+
+/* 统一卡片内链接 hover 行为 */
+.dark .card a:hover {
+    border-bottom: 1px solid var(--color-accent-dark);
+}
+
+/* ------------------------------------------------------------
+ * 9. Publications
+ *    - Fix title / abstract color semantics
+ * ---------------------------------------------------------- */
+.article-metadata {
+    font-size: 0.9em;
+}
+
+.article-style {
+    font-size: 16px !important;
+}
+
+/* 深色模式：publication 标题链接 = 38A9FF */
+body.dark .article-title a {
+    color: var(--color-accent-dark) !important;
+    /* #38A9FF */
+}
+
+
+/* 摘要区域：虽然外面是 <a>，但文字颜色设回正文色 */
+body.dark .article-style,
+body.dark .article-style p {
+    color: var(--color-text-dark);
+    /* 比如 #f8f8f2 */
+    text-decoration: none;
+    border-bottom: none;
+}
+
+
+
+/* ------------------------------------------------------------
+ * 10. Card link component（沿用你原来的设计，稍做整理）
+ * ---------------------------------------------------------- */
 
 .card-link,
 .card-link:hover {
     text-decoration: none;
     border: none !important;
-    color: inherit !important
+    color: inherit !important;
 }
 
 .card-link {
     position: relative;
     display: block;
     margin: 1em auto;
-    // width: 500px;
     box-sizing: border-box;
     border-radius: 12px;
     max-width: 80%;
-    overflow: hidden;
-    color: inherit;
-    text-decoration: none
 }
 
-.ztext {
-    word-break: break-word;
-    line-height: 2.4rem;
-}
-
-
-.card-link-backdrop {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url(/images/card-link-bg.jpg);
-    background-repeat: no-repeat;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-    background-size: cover;
-    background-position: center
-}
-
-
-
-.card-link-content {
-    position: relative;
+.card-link-inner {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-    border-radius: inherit;
-    background-color: rgba(246, 246, 246, 0.88);
-
-    body.dark & {
-        background-color: rgba(61, 62, 65, 0.88);
-        color: #f8f8f2;
-    }
+    align-items: stretch;
 }
 
+/* 文本部分 */
 .card-link-text {
-    overflow: hidden
+    overflow: hidden;
 }
 
+/* 标题 */
 .card-link-title {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
     max-height: calc(16px * 1.25 * 4);
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
     color: #1a1a1a;
@@ -340,26 +413,23 @@ h6 {
     }
 }
 
+/* meta 行（来源 / 时间等） */
 .card-link-meta {
     display: flex;
     margin-top: 4px;
     font-size: 16px;
     line-height: 20px;
     color: #999;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
-.card-link-url {
-    display: inline-flex;
-    align-items: center;
+/* favicon / 预览图容器 */
+.card-link-favicon {
+    flex-shrink: 0;
+    margin-left: 16px;
 }
 
-.card-link-imageCell {
-    margin-left: 8px;
-    border-radius: 6px;
-}
-
-.card-link-image {
+.card-link-favicon img {
     display: block;
     width: 150px;
     height: 100px;
@@ -369,9 +439,10 @@ h6 {
 }
 
 
-/* Figure */
+/* ------------------------------------------------------------
+ * 11. Figures
+ * ---------------------------------------------------------- */
 
 figure figcaption {
     font-size: 0.9em;
-    ;
 }
